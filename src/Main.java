@@ -14,8 +14,10 @@ public class Main {
     {
         die1 = rnd.nextInt(6) + 1;
         die2 = rnd.nextInt(6) + 1;
-
         int total = die1 + die2;
+
+        System.out.println("Die1: " + die1);
+        System.out.println("Die2: " + die2);
         System.out.println("You rolled a: " + total);
         if(total == 2)
         {
